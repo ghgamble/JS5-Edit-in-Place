@@ -2,10 +2,18 @@ body {
     text-align: center;
 }
 
-.input-box {
-
+input {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: serif;
 }
 
 .hidden {
     display: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
 }
